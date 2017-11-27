@@ -1,0 +1,117 @@
+html, body, div {
+  box-sizing: border-box;
+  background-color: #e8e8e8;
+}
+
+.nav img {
+  width: 100%
+}
+
+.col-left {
+  width: 35%;
+  float: left;
+  height: 400px;
+}
+.col-left {
+  background: url(../img/logo-bg.png) no-repeat 50% 0;
+}
+
+h1 a {
+  padding-top: 117px;
+  height: 162px;
+  display: block;
+  text-align: center;
+}
+
+#list {
+  list-style: none;
+  float: right;
+  width: 60%;
+  display: inline;
+}
+
+ul#list li{
+  width: 30%;
+}
+
+#list li {
+  background: url(../img/ornament.png) no-repeat 0 100%;
+  display: inline;
+  float: left;
+  text-align: center;
+}
+
+#list li a {
+  text-decoration: none;
+  color: #890101;
+  font: bold 14px/1.2 "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  letter-spacing: 0.1em;
+  padding: 1em 0.5em 3em;
+  margin-bottom: -1em;
+  text-transform: uppercase;
+}
+
+#first {
+  margin-right: 2%;
+}
+
+#middle {
+  margin-right: 2%;
+}
+
+#last {
+  margin-right: 2%;
+}
+
+.col-right {
+  width: 65%;
+  float: right;
+  text-align: center;
+}
+.col-right p {
+  padding: 1.5em;
+}
+.doublev {
+  background: url(../img/ornament.png) no-repeat 0 50%;
+  font-size: 1.4em;
+  text-transform: lowercase;
+  text-align: center;
+  margin: 0.75em 0 1em;
+}
+
+.doublev h2 b {
+  padding: 0 1em;
+  background: url(../img/bg.png);
+}
+
+ul.gallery {
+  width: 100%;
+  list-style: none;
+}
+
+ul.gallery li {
+  width: 13%;
+  margin-right: 3%;
+  float: left;
+  color: #890101;
+  text-align: center;
+  font: bold 14px/1.2 "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+ul.gallery img {
+  max-width: 100%;
+  border-radius: 10%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+ul.gallery:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.footer {
+  text-align: center;
+}
